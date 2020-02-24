@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+
+/**********************
+wrap
+**********************/
+.wrap{
+  width: 1280px;
+  height: 1372px;
+  background: #F0F0F0 0% 0% no-repeat padding-box;
+  padding: 80px 85px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.box{
+  width: 350px;
+  height: 366px;
+  flex: 0 0 1;
+}
+.title-border{
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  position: relative;
+}
+.x-1, .x-2{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Helvetica Neue';
+  font-size: 24px;
+  letter-spacing: 0;
+  color: #2EB738;
+}
+.x-1{
+  left: 7px;
+}
+.x-2{
+  right: 7px;
+}
+.border{
+  width: 280px;
+  height: 1px;
+  display: inline-block;
+  border-top: 1px solid #2EB738;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.title-box{
+  width: 100%;
+  height: 310px;
+  text-align: center;
+  padding-top: 127.5px;
+}
+.title-box h1{
+  font-family: Medium;
+  font-size: 56px;
+  letter-spacing: 0;
+  color: #2EB738;
+  margin: 0 auto;
+}
+.title-box p{
+  font-family: 'Regular';
+  font-size: 24px;
+  letter-spacing: 0;
+  color: #2EB738;
+  margin: 0 auto;
+}
+.mcl-box{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px #D8D8D8;
+  border-radius: 100px 0px 30px 0px;
+  padding: 34px 40px 64px 40px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+}
+.mcl-title{
+  width: 105px;
+  height: 153px;
+  text-align: center;
+  font-family: Bold;
+  font-size: 128px;
+  color: #2EB738;
+  text-shadow: 4px 3px 0px #F0F0F0;
+  margin-right: 47px;
+}
+.mcl-item{
+  width: auto;
+  height: 33px;
+  font-family: 'Helvetica Neue';
+  font-size: 24px;
+  letter-spacing: 0;
+  color: #2EB738;
+  margin-bottom: 8px;
+}
+.mcl-item:nth-child(2), .mcl-item:nth-child(3){
+  margin-right: 47px;
+}
+.mcl-item:nth-child(4){
+  margin-bottom: 0px;
+  margin-right: 47px;
+}
+.mcl-item:nth-child(10){
+  margin-bottom: 0px;
+} 
+
+/**********************
+footer
+**********************/
+footer{
+  width: 1280px;
+  height: 34px;
+  background: #2EB738 0% 0% no-repeat padding-box;
+  margin: 0 auto;
+  position: relative;
+}
+footer span{
+  position: absolute;
+  top: 50%;
+  right: 85px;
+  transform: translateY(-50%);
+  font-family: 'Regular';
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #F0F0F0;
+}
